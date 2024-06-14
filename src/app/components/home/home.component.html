@@ -1,0 +1,12 @@
+<h2>Cà Phê Tại Nhà</h2>
+<div class="container1">
+  <div class="product" *ngFor="let product of products">
+    <img
+      [routerLink]="['/detail', product.id]"
+      src="./assets/public/images/{{ product.imageUrl }}"
+      [alt]="product.name"
+    />
+    <p>{{ product.name }}</p>
+    <p class="price">{{ product.price | currency : "VND" }}</p>
+  </div>
+</div>

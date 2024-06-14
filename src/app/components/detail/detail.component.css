@@ -1,0 +1,29 @@
+.container {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-group-toggle .btn {
+  border-radius: 0;
+}
+
+.btn-group-toggle .btn:first-child {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.btn-group-toggle .btn:last-child {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.btn.btn-primary.btn-lg.btn-block {
+  background-color: #ff7f0e;
+  color: #fff3e0;
+}
+.btn.btn-primary.btn-lg.btn-block :hover {
+  background-color: #fff3e0;
+  color: #ff7f0e;
+}
